@@ -1,0 +1,188 @@
+\documentclass[12pt,a4paper]{report}
+
+% ------------------------------------------------
+% PACKAGES
+% ------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}       % Images
+\usepackage{amsmath, amssymb} % Mathematics
+\usepackage{booktabs}       % Better tables
+\usepackage{geometry}       % Page margins
+\usepackage{setspace}       % Line spacing
+\usepackage{float}          % Figure placement
+\usepackage{hyperref}       % Clickable links
+\usepackage{caption}        % Figure/table captions
+
+% ------------------------------------------------
+% PAGE SETUP
+% ------------------------------------------------
+\geometry{
+    a4paper,
+    margin=1in
+}
+
+\onehalfspacing
+
+% ------------------------------------------------
+% DOCUMENT INFORMATION
+% ------------------------------------------------
+\title{\textbf{Automated System For Internet Cafes}}
+\author{James Marte Divinagracia}
+\date{\today}
+
+% ------------------------------------------------
+% DOCUMENT
+% ------------------------------------------------
+\begin{document}
+
+% ------------------------------------------------
+% TITLE PAGE
+% ------------------------------------------------
+\maketitle
+
+\begin{abstract}
+This is a brief summary of the report. 
+The abstract should describe the purpose, methods, main findings, 
+and conclusions of the work.
+\end{abstract}
+
+% ------------------------------------------------
+% TABLE OF CONTENTS
+% ------------------------------------------------
+\tableofcontents
+\newpage
+
+% ------------------------------------------------
+% CHAPTER 1
+% ------------------------------------------------
+\chapter{Introduction}
+
+\section{Background}
+
+Introduce the topic and provide the necessary background
+information for the reader.
+
+\section{Aim and Objectives}
+
+The aim of this report is to investigate...
+
+The main objectives are:
+
+\begin{itemize}
+    \item Objective one
+    \item Objective two
+    \item Objective three
+\end{itemize}
+
+\section{Report Structure}
+
+This report is organised into several chapters. 
+Chapter 2 discusses the methodology, while Chapter 3 presents
+the results.
+
+% ------------------------------------------------
+% CHAPTER 2
+% ------------------------------------------------
+\chapter{Methodology}
+
+\section{Approach}
+
+Describe the methods and procedures used in the study.
+
+\section{Materials}
+
+List the materials, equipment, software, or data used.
+
+\begin{itemize}
+    \item Material 1
+    \item Material 2
+    \item Material 3
+\end{itemize}
+
+% ------------------------------------------------
+% CHAPTER 3
+% ------------------------------------------------
+\chapter{Results}
+
+\section{Results}
+
+Present your findings here.
+
+% Example figure
+\begin{figure}[H]
+    \centering
+    % \includegraphics[width=0.7\textwidth]{figure.png}
+    \caption{Example figure caption.}
+    \label{fig:example}
+\end{figure}
+
+As shown in Figure~\ref{fig:example}, ...
+
+% Example table
+\begin{table}[H]
+    \centering
+    \caption{Example table.}
+    \label{tab:example}
+    \begin{tabular}{lcc}
+        \toprule
+        Item & Value 1 & Value 2 \\
+        \midrule
+        A & 10 & 20 \\
+        B & 15 & 25 \\
+        C & 12 & 22 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+% ------------------------------------------------
+% CHAPTER 4
+% ------------------------------------------------
+\chapter{Discussion}
+
+Discuss and interpret the results.
+
+Explain what the findings mean and compare them with
+previous work where appropriate.
+
+% ------------------------------------------------
+% CHAPTER 5
+% ------------------------------------------------
+\chapter{Conclusion}
+
+Summarise the main findings of the report.
+
+The key conclusions are:
+
+\begin{enumerate}
+    \item Conclusion one.
+    \item Conclusion two.
+    \item Conclusion three.
+\end{enumerate}
+
+\section{Recommendations}
+
+Provide recommendations or suggestions for future work.
+
+% ------------------------------------------------
+% REFERENCES
+% ------------------------------------------------
+\begin{thebibliography}{9}
+
+\bibitem{example}
+Author Name,
+\textit{Book or Article Title},
+Publisher or Journal, Year.
+
+\end{thebibliography}
+
+% ------------------------------------------------
+% APPENDIX
+% ------------------------------------------------
+\appendix
+
+\chapter{Additional Information}
+
+Include supplementary material here.
+
+\end{document}
